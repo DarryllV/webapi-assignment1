@@ -38,7 +38,8 @@ All outputs are labelled with headers to allow for readability of outputs.
     
     * `admNo` -> Admin number of the student
 
-- **Output**: Returns a confirmation message that the student has been added.
+- **Output**: 
+   * Returns a confirmation message that the student has been added.
 
 
 ### 3. `scheduleSession(student, tutor, day, session)`
