@@ -1,6 +1,6 @@
 let timetabling = {
 
-    //initialized arrays to store data, 1 sample data each for testing
+    //initialized arrays to store data, 1-2 sample data each for testing
     students:[
         {
             studName: "Darryll",
@@ -65,8 +65,6 @@ let timetabling = {
         return `Tutor ${tutor} and student ${student} has been scheduled for the ${session} session on ${day}`
     },
 
-
-
     //Show entire schedule
     showSchedule() {
         schedLength = this.schedule.length;
@@ -75,8 +73,6 @@ let timetabling = {
             console.log(this.schedule[i]);
         }
     },
-
-
 
     //Edit schedule
     //You only have to provide the old day and session, then you can type in the new values for the selected day and session
