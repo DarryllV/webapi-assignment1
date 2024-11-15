@@ -5,7 +5,9 @@ This project is a simplified **Timetabling system** to schedule tutoring session
 
 # Usage
 
-app.js provides examples. Just run ```node app.js``` in the terminal to see the sample outputs.
+app.js provides examples of how the functions in this app can be used.
+
+Clone this repo into your desktop and run ```node app.js``` in the terminal to see the sample outputs.
 
 All outputs are labelled with headers to allow for readability of outputs.
 
@@ -36,7 +38,8 @@ All outputs are labelled with headers to allow for readability of outputs.
     
     * `admNo` -> Admin number of the student
 
-- **Output**: Returns a confirmation message that the student has been added.
+- **Output**: 
+   * Returns a confirmation message that the student has been added.
 
 
 ### 3. `scheduleSession(student, tutor, day, session)`
