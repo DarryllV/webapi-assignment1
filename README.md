@@ -12,7 +12,7 @@ All outputs are labelled with headers to allow for readability of outputs.
 
 # Functions
 
-### 1. AddTutor(tutName, tutCourse)
+### 1. `AddTutor(tutName, tutCourse)`
 - **Purpose**: Adds a new tutor's details to the tutors array.
 
 - **Parameters**: 
@@ -25,8 +25,8 @@ All outputs are labelled with headers to allow for readability of outputs.
     * Returns a confirmation message that the tutor has been added.
 
 
-### 2. AddStudent(studName, studAge, admNo)
-- Purpose: Adds a new student's details to the students array.
+### 2. `AddStudent(studName, studAge, admNo)`
+- **Purpose**: Adds a new student's details to the students array.
 
 - **Parameters**: 
 
@@ -39,7 +39,7 @@ All outputs are labelled with headers to allow for readability of outputs.
 - **Output**: Returns a confirmation message that the student has been added.
 
 
-### 3. scheduleSession(student, tutor, day, session)
+### 3. `scheduleSession(student, tutor, day, session)`
 - **Purpose**: Schedules a new session by adding the details to the schedule array.
 
 - **Parameters**:
@@ -55,13 +55,13 @@ All outputs are labelled with headers to allow for readability of outputs.
     * Returns a confirmation message with the session details.
 
 
-### 4. showSchedule()
+### 4. `showSchedule()`
 - **Purpose**: Displays the entire schedule array.
 
 - **Output**: Displays all scheduled sessions in json format
 
 
-### 5. editSchedule(oldDay, oldSession, newStud, newTut)
+### 5. `editSchedule(oldDay, oldSession, newStud, newTut)`
 - **Purpose**: Edits an existing schedule entry based on the specified day (oldDay) and session (oldSession).
 
 - **Parameters**:
