@@ -1,4 +1,4 @@
-# Assignment 1 (WIP Documentation)
+# Assignment 1
 
 This project is a simplified **Timetabling system** to schedule tutoring sessions (AM/PM) between a tutor, student and respective subject.
 
