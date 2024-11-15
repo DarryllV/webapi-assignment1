@@ -37,7 +37,7 @@ let timetabling = {
     AddTutor(tutName, tutCourse) {
 
         const newTut = {tutName: tutName, tutCourse: tutCourse};
-        this.students.push(newTut);
+        this.tutors.push(newTut);
 
         return `Tutor ${tutName} teaching ${tutCourse} has been added`;
     },
